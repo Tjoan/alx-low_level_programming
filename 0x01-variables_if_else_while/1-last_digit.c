@@ -5,7 +5,8 @@
 /**
  * main - Entry point for the C code
  *
- * Description: This program will assign a random number to the variable n each time it is executed and print the last digit of the number stored in the variable n.
+ * Description: This program will assign a random number to the variable n 
+ * each time it is executed and print the last digit of the number stored in the variable n.
  *
  * Return: returns 0 to indicate (Success)
  */
