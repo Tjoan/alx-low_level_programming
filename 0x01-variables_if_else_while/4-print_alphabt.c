@@ -3,7 +3,7 @@
 /**
 * main - Entry point of the code
 *
-* Description: This program prints all alphabet 
+* Description: This program prints all alphabet
 * in lowercase except q and e, followed by a new line.
 *
 * Return: returns an int 0 (Success)

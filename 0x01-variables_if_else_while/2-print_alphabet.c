@@ -8,6 +8,7 @@
 *
 * Return: gives an int value of 0 for success
 */
+
 int main(void)
 {
 	char a;

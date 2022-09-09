@@ -3,7 +3,7 @@
 /**
 * main - Entry point of code
 *
-* Description: This program prints the alphabet 
+* Description: This program prints the alphabet
 * in lowercase, and then in uppercase, followed by a new line.
 *
 * Return: return as int value 0 for (Success)

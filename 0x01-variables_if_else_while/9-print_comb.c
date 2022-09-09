@@ -3,9 +3,9 @@
 /**
 * main - Entry point
 *
-* Description: This program prints 
+* Description: This program prints
 * all possible combinations of single-digit numbers
-* separated by ',', followed by a space and 
+* separated by ',', followed by a space and
 * printed in ascending order.
 *
 * Return: Always returns int 0 for (Success)
