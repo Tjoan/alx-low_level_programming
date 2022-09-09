@@ -3,7 +3,8 @@
 /**
 * main - Entry point
 *
-* Description: This program print pairs of double digit combinations
+* Description: This program prints all
+* possible combinations of two two-digit numbers.
 *
 * Return: returns int 0 (Success)
 */

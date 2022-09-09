@@ -3,8 +3,8 @@
 /**
 * main - The code begins to run from main
 *
-* Description: This program This program prints 
-* all possible different combinations of 
+* Description: This program This program prints
+* all possible different combinations of
 * three digits separated by ',', followed by
 * a space and the three digits are different.
 *
