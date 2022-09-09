@@ -3,7 +3,9 @@
 /**
 * main - Entry point of the code
 *
-* Description:TThis program prints all single digit numbers of base 10 starting from 0, followed by a new line.
+* Description:TThis program prints all
+* single digit numbers of base 10 starting from 0,
+* followed by a new line.
 *
 * Return: int value of 0 indicating  (Success)
 */

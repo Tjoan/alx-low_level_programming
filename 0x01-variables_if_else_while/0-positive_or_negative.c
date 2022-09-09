@@ -5,12 +5,14 @@
 /**
 * main - Entry point for the Code
 *
-* Description: This program will assign a random number to the variable n
-* each time it is executed and print whether the number stored in the variable n 
-* is positive or negative.
+* Description: This program will assign a random number
+* to the variable n
+* each time it is executed and print whether the number stored
+* in the variable n is positive or negative.
 * 
 * Return: this reurns an int 0 for (success)
 */
+
 int main(void)
 {
 	int n;

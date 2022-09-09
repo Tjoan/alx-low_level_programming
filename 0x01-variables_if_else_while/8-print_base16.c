@@ -3,7 +3,8 @@
 /**
 * main - Entry point of the Code
 *
-* Description: This program prints all the numbers of base 16 in lowercase, followed by a new line.
+* Description: This program prints all the numbers
+* of base 16 in lowercase, followed by a new line.
 *
 * Return: Always returns an int 0 for (Success)
 */

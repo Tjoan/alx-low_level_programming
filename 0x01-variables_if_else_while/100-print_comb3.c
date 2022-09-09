@@ -3,7 +3,9 @@
 /**
 * main - Entry point of code
 *
-* Description: This program prints all possible different combinations of two digits separated by ',', followed by a space and the two digits are different.
+* Description: This program prints all possible
+* different combinations of two digits separated by ',',
+* followed by a space and the two digits are different.
 *
 * Return: Always return an int 0 (Success)
 */

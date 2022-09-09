@@ -3,7 +3,9 @@
 /**
 * main - Entry point of the C code
 *
-* Description: This program prints prints all single digit numbers of base 10 starting from 0, followed by a new line.
+* Description: This program prints prints 
+* all single digit numbers of base 10 starting from 0,
+* followed by a new line.
 *
 * Return: int 0 for (Success)
 */
