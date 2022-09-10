@@ -11,39 +11,39 @@
 
 int main(void)
 {
-	int i = 48;
-	int j = 48;
-	int k = 48;
-	int l = 48;
+	int a = 48;
+	int b = 48;
+	int c = 48;
+	int d = 48;
 
-	while (i < 58)
+	while (a < 58)
 	{
-		while (j < 58)
+		while (b < 58)
 		{
-			l = j + 1;
-			k = i;
-			while (k < 58)
+			d = b + 1;
+			c = a;
+			while (c < 58)
 			{
-				while (l < 58)
+				while (d < 58)
 				{
-					putchar(i);
-					putchar(j);
+					putchar(a);
+					putchar(b);
 					putchar(32);
-					putchar(k);
-					putchar(l);
-					if (i < 57 || j < 56 || k < 57 || l < 57)
+					putchar(c);
+					putchar(d);
+					if (a < 57 || b < 56 || c < 57 || d < 57)
 					{
 						putchar(44);
 						putchar(32);
 					}
-					l++;
+					d++;
 				}
-				l = 48;
-				k++;
+				d = 48;
+				c++;
 			}
-			j++;
+			b++;
 		}
-		i++;
+		a++;
 	}
 	putchar('\n');
 	return (0);
