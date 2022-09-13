@@ -18,7 +18,7 @@ int main(void)
 		new = j + k;
 		j = k;
 		k = new;
-		printf("%lu, ", k);
+		printf("%.0f, ", k);
 	}
 	printf("\n");
 	return (0);
