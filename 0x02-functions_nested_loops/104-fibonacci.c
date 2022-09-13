@@ -19,7 +19,7 @@ int main(void)
 	while (i < 98)
 	{
 		i++;
-		if (i < 98)
+		if (i < 20)
 		{
 			printf("%.0f, ", l);
 		} else {
