@@ -11,12 +11,12 @@
 */
 int main(void)
 {
-	int i = 2;
+	int i = 3;
 	float j = 1, k = 2, l = j + k;
 
 	printf("%.0f, ", j);
 	printf("%.0f, ", k);
-	while (i < 88)
+	while (i < 5)
 	{
 		i++;
 		printf("%.0f, ", l);
