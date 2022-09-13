@@ -17,18 +17,17 @@ int main(void)
 	printf("%.0f, ", j);
 	printf("%.0f, ", k);
 	while (i < 98)
-	{	
+	{
 		i++;
 		if (i < 98)
 		{
 			printf("%.0f, ", l);
-		}else{
-			printf("%.0f, ", l);
+		} else {
+			printf("%.0f ", l);
 		}
 		j = k;
 		k = l;
 		l = j + k;
-		
 	}
 	printf("\n");
 	return (0);
