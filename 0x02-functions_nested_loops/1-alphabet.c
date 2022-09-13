@@ -3,6 +3,8 @@
 /**
 * main - check the code
 *
+* print_alphabet funtion prints alphabet
+*
 * Description: This prints the alphabet,
 * in lowercase, followed by a new line.
 *
@@ -11,11 +13,11 @@
 
 void print_alphabet(void)
 {
-	char i;
+	char alph;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (alph = 'a'; alph <= 'z'; alph++)
 	{
-		_putchar(i);
+		_putchar(alph);
 	}
 	_putchar('\n');
 }
