@@ -11,9 +11,10 @@
 */
 int main(void)
 {
-	int new,i, j = 0, k = 1;
+	int new, i, j = 0, k = 1;
 
-    for (i = 1; i < 98; i++) {
+    for (i = 1; i < 98; i++) 
+	{
         printf("%d ", k);
         new = j + k;
         j = k;
