@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
-* main - check the code
+* print_alphabet - this prints the
+*alphabets followed by a new line.
 *
-* print_alphabet - prints alphabet
+* Description: This prints alphabet
 * in lowercase, followed by a new line.
 *
-* Return: void.
+* Return: is void, nothing to return.
 */
 
 void print_alphabet(void)
