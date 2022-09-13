@@ -13,8 +13,8 @@ int main(void)
 {
 	int i;
 	float j = 0, k = 1, l = 2;
-	printf("%d, ", k);
-	printf("%d, ", l);
+	printf("%.0f, ", k);
+	printf("%.0f, ", l);
 	for (i = 1; i < 98; i++)
 	{
 		j = k;
