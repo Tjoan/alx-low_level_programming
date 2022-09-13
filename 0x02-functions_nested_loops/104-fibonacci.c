@@ -18,7 +18,7 @@ int main(void)
 	printf("%.0f, ", k);
 	while (i < 98)
 	{	
-		i++
+		i++;
 		if (i < 98)
 		{
 			printf("%.0f, ", l);
