@@ -19,7 +19,6 @@ int main(void)
 		new = j + k;
 		j = k;
 		k = new;
-		
 	}
 	printf("\n");
 	return (0);
