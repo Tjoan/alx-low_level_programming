@@ -14,8 +14,8 @@ int main(void)
 	int cnt = 2;
 
 	float i = 1;
-	floit j = i + 1;
-	floit k = i + j;
+	float j = i + 1;
+	float k = i + j;
 
 	printf("%.0f, ", i);
 	printf("%.0f, ", j);

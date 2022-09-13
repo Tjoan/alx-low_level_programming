@@ -11,7 +11,7 @@
 */
 
 int main(void)
-{	
+{
 	long int i= 0;
 	long int j = 1;
 	long int fib;

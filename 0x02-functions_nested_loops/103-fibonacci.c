@@ -10,12 +10,11 @@
 * Return: Always 0.
 */
 int main(void)
-{	
+{
 	long int i = 0;
 	long int j = 1;
 	long int sum = 0;
 	long int fib = 0;
-	
 
 	while (fib < 4000000)
 	{
