@@ -11,17 +11,24 @@
 */
 int main(void)
 {
-	int i;
-	float j = 1, k = j + 1, l = j + 2;
+	int i = 2;
+	float j = 1, k = 2, l = j + k;
 
 	printf("%.0f, ", j);
 	printf("%.0f, ", k);
-	for (i = 2; i < 98; i++)
-	{
-		printf("%.0f, ", l);
+	while (i < 98)
+	{	
+		i++
+		if (i < 98)
+		{
+			printf("%.0f, ", l);
+		}else{
+			printf("%.0f, ", l);
+		}
 		j = k;
 		k = l;
 		l = j + k;
+		
 	}
 	printf("\n");
 	return (0);
