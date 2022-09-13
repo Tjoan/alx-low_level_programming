@@ -1,28 +1,28 @@
 #include <stdio.h>
 
 /**
-* main - prints all natural numbers multiples of 3 & 5
+* main -  computes and prints the sum of all the multiples
+* of 3 or 5 below 1024 (excluded), followed by a new line.
 *
-* Description: Function displays all the positive multiples of
-* 3 and 5 that is < 1024.
+* Description: computes and prints the sum of all the multiples
+* of 3 or 5 below 1024 (excluded), followed by a new line.
 *
-* Return: Always 0.
+* Return: void.
 */
 int main(void)
 {
-	int n;
+	int i;
 	int sum;
 
 	sum = 0;
-	for (n = 0; n < 1024; n++)
+	for (i = 0; i < 1024; i++)
 	{
-		if (n % 3 == 0 || n % 5 == 0)
+		if (i % 3 == 0 || i % 5 == 0)
 		{
-			sum = (sum + n);
+			sum = (sum + i);
 		}
 	}
 
 	printf("%d\n", sum);
 
-	return (0);
 }

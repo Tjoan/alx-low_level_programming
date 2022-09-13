@@ -5,7 +5,7 @@
 *
 * Description: prints the last digit of a number.
 *
-* @j: n is an integer.
+* @j: holds the value.
 *
 * Return: value of the last digit.
 */

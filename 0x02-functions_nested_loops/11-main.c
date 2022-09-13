@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - prints all natural numbers from n to 98,
+ * followed by a new line
  *
  * Return: Always 0.
  */

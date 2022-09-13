@@ -1,36 +1,32 @@
 #include <stdio.h>
 
 /**
- * main - will print the first 50 Fibonacci
- *numbers, starting with 1 and 2.
+* main - prints the first 50 Fibonacci nbers,
+* starting with 1 and 2, followed by a new line.
 *
-* Description: displays only the fibonacci numbers from 1 to 50
+* Description: prints the first 50 Fibonacci nbers,
+* starting with 1 and 2, followed by a new line.
 *
 * Return: Always 0.
 */
 
 int main(void)
-{
+{	
+	long int i= 0;
+	long int j = 1;
 	long int fib;
-	long int a;
-	long int b;
-	int num;
+	int n = 0;
 
-	fib = 0;
-	a = 0;
-	b = 1;
-	num = 0;
-
-	while (num < 49)
+	while (n < 49)
 	{
-		fib  = a + b;
+		fib  = i + j;
 		printf("%li, ", fib);
-		a = b;
-		b = fib;
+		i = j;
+		j = fib;
 
-		num++;
+		n++;
 	}
-	fib = a + b;
+	fib = i + j;
 	printf("%li\n", fib);
 
 	return (0);

@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
-* print_to_98 - this function ptints to 98 from int n
+* print_to_98 - prints the n times table, starting with 0
 *
-* @n: is an integer
+* @n: Holds the nth value
 *
-* Description: Function primts from int n to number 98
+* Description: prints the n times table, starting with 0
 *
-* Return: is void
+* Return: void.
 */
 void print_to_98(int n)
 {

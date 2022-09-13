@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
-* add - add two integers
+* add -  adds two integers and returns the result
 *
-* Description: This program will add up two integers
+* Description: adds two integers and returns the result
 *
-* @x: is the first integer
-* @y: is the second integer
+* @j: Holds the fist value
+* @k: Holds the second value
 *
-* Return: This returns an int value
+* Return: result of the addition of two values
 */
-int add(int x,  int y)
+int add(int j,  int k)
 {
 	int result;
 
-	result = (x + y);
+	result = (j + k);
 	return (result);
 }
