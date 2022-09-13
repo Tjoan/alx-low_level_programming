@@ -11,8 +11,9 @@
 */
 int main(void)
 {
-	unsigned long int a, a1, a2, b, b1, b2, c, c1, c2, d, e;
+	unsigned long int a, a1, a2, b, b1, b2, c, c1, c2, d, e, g;
 
+	g = 1000000000;
 	a = 1;
 	b = 2;
 	c = a + b;
@@ -26,10 +27,10 @@ int main(void)
 		b = c;
 		c = a + b;
 	}
-	b1 = b / 1000000000;
-	b2 = b % 1000000000;
-	c1 = c / 1000000000;
-	c2 = c % 1000000000;
+	b1 = b / g;
+	b2 = b % g;
+	c1 = c / g;
+	c2 = c % g;
 	for (e = 89; e <= 97; e++)
 	{
 		printf("%lu%lu, ", c1, c2);
@@ -37,8 +38,8 @@ int main(void)
 		a2 = b2;
 		b1 = c1;
 		b2 = c2;
-		c1 = a1 + b1 + ((a2 + b2) / 1000000000);
-		c2 = (a2 + b2) % 1000000000;
+		c1 = a1 + b1 + ((a2 + b2) / g);
+		c2 = (a2 + b2) % g;
 	}
 	printf("%lu%lu\n", c1, c2);
 	return (0);
