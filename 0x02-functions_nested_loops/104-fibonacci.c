@@ -15,10 +15,11 @@ int main(void)
 
 	for (i = 1; i < 98; i++)
 	{
+		printf("%d, ", k);
 		new = j + k;
 		j = k;
 		k = new;
-		printf("%d, ", k);
+		
 	}
 	printf("\n");
 	return (0);
