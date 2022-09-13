@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
-* _isalpha - says if a charracter is a letter
+* _isalpha -  checks for alphabetic character
 *
-* Description: this will tell if a char is a letter by
-* returning the value of 1
+* Description:  checks for alphabetic character
 *
-* @c: is a an ascii charracter
+* @c: holds the value to be checked 
 *
-* Return: will return 1 if the char is a letter and 0 if
-* otherwise
+* Return: 1, if c is a letter, lowercase or uppercase
+* and 0 if otherwise
 */
 int _isalpha(int c)
 {

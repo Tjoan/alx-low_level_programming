@@ -1,14 +1,17 @@
 #include "main.h"
 
 /**
-* print_sign - This prints the sign of a number
+* print_sign - prints the sign of a number
 *
-* Description: This prints the sign of a number and return
-* 1 for +ve, 0 for neutral 0 and -1 for -ve number
+* Description: prints the sign of a number,
+* prints + if n is greater than zero
+* prints 0 if n is zero
+* prints - if n is less than zero
+* 
+* @n: holds the value to be checked
 *
-* @n: is a number
-*
-* Return: 1 is(+ve) 0 is(zero) and -1 is(-ve)
+* Return: 1, if n is greater than zero;
+* 0, if n is zero; -1, if n is less than zero
 */
 int print_sign(int n)
 {
