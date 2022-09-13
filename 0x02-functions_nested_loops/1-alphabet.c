@@ -3,10 +3,9 @@
 /**
 * main - check the code
 *
-* print_alphabet funtion prints alphabet
-*
-* Description: This prints the alphabet,
-* in lowercase, followed by a new line.
+* Description: print_alphabet function
+* prints the alphabet in lowercase,
+* followed by a new line.
 *
 * Return: void.
 */
