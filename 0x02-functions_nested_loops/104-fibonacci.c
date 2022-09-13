@@ -19,7 +19,7 @@ int main(void)
 
 	printf("%lu, ", a);
 	printf("%lu, ", b);
-	for (d = 3; d < 89; d++)
+	for (d = 3; d <= 88; d++)
 	{
 		printf("%lu, ", c);
 		a = b;
@@ -30,7 +30,7 @@ int main(void)
 	b2 = b % 1000000000;
 	c1 = c / 1000000000;
 	c2 = c % 1000000000;
-	for (e = 89; e < 98; e++)
+	for (e = 89; e <= 97; e++)
 	{
 		printf("%lu%lu, ", c1, c2);
 		a1 = b1;
