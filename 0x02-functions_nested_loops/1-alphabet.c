@@ -9,7 +9,6 @@
 *
 * Return: is void, nothing to return.
 */
-
 void print_alphabet(void)
 {
 	char alph;
