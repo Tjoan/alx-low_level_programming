@@ -5,7 +5,7 @@
 *
 * Description:  checks for alphabetic character
 *
-* @c: holds the value to be checked 
+* @c: holds the value to be checked
 *
 * Return: 1, if c is a letter, lowercase or uppercase
 * and 0 if otherwise

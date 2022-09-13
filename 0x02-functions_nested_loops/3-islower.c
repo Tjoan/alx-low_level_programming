@@ -4,7 +4,7 @@
 * _islower - checks for lowercase character
 *
 * Description: checks for lowercase character
-
+*
 * @c: holds the value to be checked
 *
 * Return: 1, if c is lowercase
