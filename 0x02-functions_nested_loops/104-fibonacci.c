@@ -19,10 +19,7 @@ int main(void)
 	while (i < 15)
 	{
 		i++;
-		if (i < 5)
-		{
-			printf("%.0f, ", l);
-		}
+		printf("%.0f, ", l);
 		j = k;
 		k = l;
 		l = j + k;
