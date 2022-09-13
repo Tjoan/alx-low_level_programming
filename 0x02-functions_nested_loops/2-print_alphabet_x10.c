@@ -24,6 +24,5 @@ void print_alphabet_x10(void)
 			alph++;
 		}
 		_putchar('\n');
-		i++;
 	}
 }
