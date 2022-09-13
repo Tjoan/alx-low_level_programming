@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
-* main - check the code.
+* print_alphabet_x10 - this prints the
+*alphabets 10 times.
 *
-* Description: This prints 10 times the alphabet,
+* Description: This prints 10 times the alphabet
 * in lowercase, followed by a new line.
 *
-* Return: Always 0.
+* Return: void, i.e. nothing.
 */
 
 void print_alphabet_x10(void)

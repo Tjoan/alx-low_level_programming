@@ -7,8 +7,9 @@
 * Description: This prints alphabet
 * in lowercase, followed by a new line.
 *
-* Return: is void, nothing to return.
+* Return:  void, i.e. nothing.
 */
+
 void print_alphabet(void)
 {
 	char alph;
