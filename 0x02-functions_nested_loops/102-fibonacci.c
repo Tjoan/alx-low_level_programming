@@ -12,9 +12,9 @@
 
 int main(void)
 {
-	long int i= 0;
+	long int i = 0;
 	long int j = 1;
-	long int fib;
+	long int fib = 0;
 	int n = 0;
 
 	while (n < 49)
