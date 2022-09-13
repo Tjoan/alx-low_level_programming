@@ -11,26 +11,18 @@
 */
 int main(void)
 {
-	int cnt = 2;
+	int new,i, j = 0, k = 1;
 
-	float i = 1;
-	float j = i + 1;
-	float k = i + j;
-
-	printf("%0.0f, ", i);
-	printf("%0.0f, ", j);
-	while (cnt < 98)
-	{
-		cnt++;
-		printf("%0.0f", k);
-		i = j;
-		j = k;
-		k = i + j;
-		if (cnt < 98)
+    for (i = 1; i < 98; i++) {
+        printf("%d ", k);
+        new = j + k;
+        j = k;
+        k = new;
+		if (i < 98)
 		{
 			printf(", ");
 		}
-	}
+    }
 	printf("\n");
 	return (0);
 }
