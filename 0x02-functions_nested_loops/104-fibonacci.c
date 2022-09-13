@@ -11,7 +11,7 @@
 */
 int main(void)
 {
-	int i = 3;
+	int i = 2;
 	float j = 1, k = 2, l = j + k;
 
 	printf("%.0f, ", j);
