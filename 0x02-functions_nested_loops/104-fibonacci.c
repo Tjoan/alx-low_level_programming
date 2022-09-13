@@ -16,7 +16,7 @@ int main(void)
 
 	printf("%.0f, ", j);
 	printf("%.0f, ", k);
-	while (i < 15)
+	while (i < 97)
 	{
 		i++;
 		printf("%.0f, ", l);
@@ -24,7 +24,7 @@ int main(void)
 		k = l;
 		l = j + k;
 	}
-	printf("%.0f, ", l);
+	printf("%.0f ", l);
 	printf("\n");
 	return (0);
 }
