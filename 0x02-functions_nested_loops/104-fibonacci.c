@@ -16,19 +16,18 @@ int main(void)
 
 	printf("%.0f, ", j);
 	printf("%.0f, ", k);
-	while (i < 98)
+	while (i < 15)
 	{
 		i++;
-		if (i < 20)
+		if (i < 5)
 		{
 			printf("%.0f, ", l);
-		} else {
-			printf("%.0f ", l);
 		}
 		j = k;
 		k = l;
 		l = j + k;
 	}
+	printf("%.0f, ", l);
 	printf("\n");
 	return (0);
 }
