@@ -4,8 +4,6 @@
 * main - check the code
 *
 * print_alphabet - prints alphabet
-*
-* Description: This prints the alphabet,
 * in lowercase, followed by a new line.
 *
 * Return: void.
