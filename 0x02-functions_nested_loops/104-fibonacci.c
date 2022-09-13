@@ -11,20 +11,26 @@
 */
 int main(void)
 {
-	int i = 2;
-	float j = 1, k = 2, l = j + k;
+	int counter = 2;
 
-	printf("%.0f, ", j);
-	printf("%.0f, ", k);
-	while (i < 98)
+	float a = 1;
+	float b = a + 1;
+	float c = a + b;
+
+	printf("%.0f, ", a);
+	printf("%.0f, ", b);
+	while (counter < 98)
 	{
-		i++;
-		printf("%.0f, ", l);
-		j = k;
-		k = l;
-		l = j + k;
+		counter++;
+		printf("%.0f", c);
+		a = b;
+		b = c;
+		c = a + b;
+		if (counter < 98)
+		{
+			printf(", ");
+		}
 	}
-	printf("%.0f", l);
 	printf("\n");
 	return (0);
 }
