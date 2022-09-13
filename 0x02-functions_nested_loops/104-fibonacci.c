@@ -18,10 +18,6 @@ int main(void)
         new = j + k;
         j = k;
         k = new;
-		if (i < 98)
-		{
-			printf(", ");
-		}
     }
 	printf("\n");
 	return (0);
