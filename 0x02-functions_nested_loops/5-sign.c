@@ -7,7 +7,7 @@
 * prints + if n is greater than zero
 * prints 0 if n is zero
 * prints - if n is less than zero
-* 
+*
 * @n: holds the value to be checked
 *
 * Return: 1, if n is greater than zero;
