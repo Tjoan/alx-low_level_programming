@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
-* print_line - draws a straight line in the terminal
+* print_line - draws a straight line.
 *
-*@n: is a variable
+* @n: is a variable.
 *
-* Description: function that draws a straight 
-* line in the terminal
+* Description: function draws a line.
 *
 * Return: void.
 */
