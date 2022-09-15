@@ -3,6 +3,8 @@
 /**
 * main - prints an integer.
 *
+* @n: is a variable.
+*
 * Description: function that prints an integer.
 *
 * Return: Always 0.
