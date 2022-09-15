@@ -8,7 +8,7 @@
 *
 * Description: function that prints an integer.
 *
-* Return: Always 0.
+* Return: void
 */
 
 void print_number(int n)
