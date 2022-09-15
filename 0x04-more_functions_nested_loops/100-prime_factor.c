@@ -2,32 +2,32 @@
 
 /**
 * main - prints the largest prime factor of the number
-* 612852475143
+* 612852475143, followed by a new line.
 *
-* Description: will print prime factors.
+* Description: finds and prints the largest prime factor
+* of the number 612852475143, followed by a new line.
 *
-* Return: Always 0
+* Return: Always 0.
 */
 
 int main(void)
 {
-	long int prime = 612852475143;
-	long int a = prime;
-	long int b = 2;
+	long int i = 612852475143;
+	long int j = 2;
 
-	while (a != b)
+	while (i != j)
 	{
-		if (a % b == 0)
+		if (i % j != 0)
 		{
-			a = (a / b);
+			j++;
 		}
 		else
 		{
-			b++;
+			i = (i / j);
 		}
 	}
 
-	printf("%li\n", a);
+	printf("%li\n", i);
 
 	return (0);
 }

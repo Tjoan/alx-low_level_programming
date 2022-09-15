@@ -1,32 +1,34 @@
 #include "main.h"
 
 /**
- * print_triangle - prints a triangle
- * @size: length of sides minus hypotenuse
+ * print_triangle - prints a triangle,followed by a new line.
+ *
+ * @size: is a vairable.
+ *
+ * Description: function that prints a triangle,
+ * followed by a new line.
  *
  * Return: void
  */
 
 void print_triangle(int size)
 {
-	int line = 0;
-	int gap;
-	int hash;
+	int i = 0, j, k;
 
 	if (size > 0)
 	{
-		while (line < size)
+		while (i < size)
 		{
-			for (gap = size - 1; gap > line; gap--)
+			for (j = size - 1; j > i; j--)
 			{
 				_putchar(' ');
 			}
-			for (hash = 0; hash < line + 1; hash++)
+			for (k = 0; k < i + 1; k++)
 			{
 				_putchar('#');
 			}
 			_putchar('\n');
-			line++;
+			i++;
 		}
 	}
 	else
