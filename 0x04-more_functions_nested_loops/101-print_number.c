@@ -5,9 +5,6 @@
  *@n:input
  *
  *Return:void
- *
- *Description:prints an integer
- *
  */
 void print_number(int n)
 {
