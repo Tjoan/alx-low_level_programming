@@ -17,8 +17,8 @@ int main(void)
 	int i, j, k, sum, n;
 	int pasw[1000];
 
-	j = 99;
-	k = 1234;
+	j = 78;
+	k = 2772;
 	sum = 0;
 
 	srand(time(NULL));
