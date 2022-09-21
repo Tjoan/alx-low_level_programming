@@ -12,14 +12,14 @@
 */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int i1, i2, tempi, ji, i, j, k1, k2, m;
-	char temp[10000];
+    int i1, i2, tempi, ji, i, j, k1, k2, m;
+    char temp[10000];
 
-	ji = i = i1 = i2 = j = k1 = k2 = m = 0;
-	while (n1[i1] != '\0')
-		i1++;
+    ji = i = i1 = i2 = j = k1 = k2 = m = 0;
+    while (n1[i1] != '\0')
+        i1++;
 	while (n2[i2] != '\0')
-		i2++;
+        i2++;
 	if (i1 + 2 > size_r || i2 + 2 > size_r)
 		return (0);
 	i1--;
