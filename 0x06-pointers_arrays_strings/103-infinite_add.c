@@ -8,12 +8,12 @@
 * @r: third parameter
 * @size_r: fourth parameter
 *
-* Return: character pointer
+* Return: pointer to the result.
 */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int i1, i2, tempi, ji, i, j, k1, k2, m;
-	char tmp[10000];
+	char temp[10000];
 
 	ji = i = i1 = i2 = j = k1 = k2 = m = 0;
 	while (n1[i1] != '\0')
@@ -51,7 +51,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	i = tempi = 0;
 	while (i <= ji)
 	{
-		tmp[i] = r[ji - i];
+		temp[i] = r[ji - i];
 		tempi++;
 		i++;
 	}
@@ -62,7 +62,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		{
 			break;
 		}
-		r[i] = tmp[i];
+		r[i] = temp[i];
 		i++;
 	}
 	return (r);
