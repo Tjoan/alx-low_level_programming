@@ -14,7 +14,7 @@ char *_strncat(char *dest, char *src, int n)
 	int i, j;
 
 	for (i = 0; dest[i] != '\0'; i++)
-	{}
+
 	j = 0;
 	while (j < n)
 	{
@@ -22,6 +22,6 @@ char *_strncat(char *dest, char *src, int n)
 		j++;
 		i++;
 	}
-	return (*dest);
+	return (dest);
 	_putchar('\n');
 }
