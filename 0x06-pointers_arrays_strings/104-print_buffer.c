@@ -4,31 +4,30 @@
 /**
  * print_buffer - prints a buffer.
  *
- * @b: first parameter
- * @size: second parameter
+ * @b: first parameter for buffer
+ * @size: second parameter for size
  *
  * Return: void.
  */
 
 void print_buffer(char *b, int size)
 {
-	int t, j, i;
+	int c, g, h, i;
 
-	t = 0;
-
+	g = 0;
 	if (size <= 0)
 	{
 		printf("\n");
 		return;
 	}
-	while (t < size)
+	while (g < size)
 	{
-		j = size - t < 10 ? size - t : 10;
-		printf("%08x: ", t);
+		h = size - g < 10 ? size - g : 10;
+		printf("%08x: ", g);
 		for (i = 0; i < 10; i++)
 		{
-			if (i < j)
-				printf("%02x", *(b + t + i));
+			if (i < h)
+				printf("%02x", *(b + g + i));
 			else
 				printf("  ");
 			if (i % 2)
@@ -36,9 +35,9 @@ void print_buffer(char *b, int size)
 				printf(" ");
 			}
 		}
-		for (i = 0; i < j; i++)
+		for (i = 0; i < h; i++)
 		{
-			int c = *(b + t + i);
+			c = *(b + g + i);
 
 			if (c < 32 || c > 132)
 			{
@@ -47,6 +46,6 @@ void print_buffer(char *b, int size)
 			printf("%c", c);
 		}
 		printf("\n");
-		t += 10;
+		g += 10;
 	}
 }
