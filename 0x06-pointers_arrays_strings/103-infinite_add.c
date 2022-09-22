@@ -10,46 +10,62 @@
 *
 * Return: pointer to the result.
 */
+
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int c1 = 0, c2 = 0, op, bg, dr1, dr2, add = 0;
+    int i1, i2, tempi, ji, i, j, k1, k2, m;
+    
+    char temp[10000];
 
-	while (*(n1 + c1) != '\0')
-		c1++;
-	while (*(n2 + c2) != '\0')
-		c2++;
-	if (c1 >= c2)
-		bg = c1;
-	else
-		bg = c2;
-	if (size_r <= bg + 1)
+    ji = i = i1 = i2 = j = k1 = k2 = m = 0;
+    while (n1[i1] != '\0')
+        i1++;
+	while (n2[i2] != '\0')
+        i2++;
+	if (i1 + 2 > size_r || i2 + 2 > size_r)
 		return (0);
-	r[bg + 1] = '\0';
-	c1--, c2--, size_r--;
-	dr1 = *(n1 + c1) - 48, dr2 = *(n2 + c2) - 48;
-	while (bg >= 0)
+	i1--;
+	i2--;
+	while (i <= i1 || i <= i2)
 	{
-		op = dr1 + dr2 + add;
-		if (op >= 10)
-			add = op / 10;
+		k1 = k2 = 0;
+		if (i <= i1)
+			k1 = n1[i1 - i] - '0';
+		if (i <= i2 && (i2 - i) >= 0)
+			k2 = n2[i2 - i] - '0';
+		j = k1 + k2 + m;
+		if (j >= 10)
+		{
+			m = 1;
+			j -= 10;
+		}
 		else
-			add = 0;
-		if (op > 0)
-		*(r + bg) = (op % 10) + 48;
-		else
-			*(r + bg) = '0';
-		if (c1 > 0)
-			c1--, dr1 = *(n1 + c1) - 48;
-		else
-			dr1 = 0;
-		if (c2 > 0)
-			c2--, dr2 = *(n2 + c2) - 48;
-		else
-			dr2 = 0;
-		bg--, size_r--;
+			m = 0;
+		r[i] = j + '0';
+		i++;
+		ji++;
 	}
-	if (*(r) == '0')
-		return (r + 1);
-	else
-		return (r);
+	if (m > 0)
+	{
+		r[i] = m + '0';
+		r[i + 1] = '\0';
+	}
+	i = tempi = 0;
+	while (i <= ji)
+	{
+		temp[i] = r[ji - i];
+		tempi++;
+		i++;
+	}
+	i = 0;
+	while (i < tempi)
+	{
+		if (r[i] == '\0')
+		{
+			break;
+		}
+		r[i] = temp[i];
+		i++;
+	}
+	return (r);
 }

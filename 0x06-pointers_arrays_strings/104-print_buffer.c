@@ -12,22 +12,23 @@
 
 void print_buffer(char *b, int size)
 {
-	int c, g, h, i;
+	int t, j, i;
 
-	g = 0;
+	t = 0;
+
 	if (size <= 0)
 	{
 		printf("\n");
 		return;
 	}
-	while (g < size)
+	while (t < size)
 	{
-		h = size - g < 10 ? size - g : 10;
-		printf("%08x: ", g);
+		j = size - t < 10 ? size - t : 10;
+		printf("%08x: ", t);
 		for (i = 0; i < 10; i++)
 		{
-			if (i < h)
-				printf("%02x", *(b + g + i));
+			if (i < j)
+				printf("%02x", *(b + t + i));
 			else
 				printf("  ");
 			if (i % 2)
@@ -35,9 +36,9 @@ void print_buffer(char *b, int size)
 				printf(" ");
 			}
 		}
-		for (i = 0; i < h; i++)
+		for (i = 0; i < j; i++)
 		{
-			c = *(b + g + i);
+			int c = *(b + t + i);
 
 			if (c < 32 || c > 132)
 			{
@@ -46,6 +47,6 @@ void print_buffer(char *b, int size)
 			printf("%c", c);
 		}
 		printf("\n");
-		g += 10;
+		t += 10;
 	}
 }
