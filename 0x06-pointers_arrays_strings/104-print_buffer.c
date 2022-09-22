@@ -4,8 +4,8 @@
 /**
  * print_buffer - prints buffer
  *
- * @b: buffer parameter
- * @size: size parameter
+ * @b: buffer
+ * @size: size
  *
  * Return: void
  */
