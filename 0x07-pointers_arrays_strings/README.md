@@ -1,1 +1,1 @@
-This directoey contains functions involving more pointers, arrays and strings: pointers to pointers, multidimensional arrays
+0x07. C - Even more pointers, arrays and strings
